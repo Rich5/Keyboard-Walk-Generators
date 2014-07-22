@@ -103,7 +103,37 @@ Method 1 Usage
     $bhu8.;[=\`zxXAQ
     ...
     
-
+    Some notes on usage:
+    --------------------
+    
+    1. When using the -p option with --stdout you may only use 1 process. Since the processes are non-blocking you will get gibberish instead of walks when using multiple processes
+    
+    2. The -x option is used for pruning the graph. You will be prompted (shown below) for a csv list of edges to exclude from parsing. 
+    
+        [1] diag_up_right
+        [2] right
+        [3] diag_up_left
+        [4] up
+        [5] shift_right
+        [6] diag_down_left
+        [7] diag_down_right
+        [8] shift_loop
+        [9] shift_left
+        [10] shift_diag_up_left
+        [11] down
+        [12] shift_down
+        [13] shift_up
+        [14] shift_diag_down_right
+        [15] shift_diag_down_left
+        [16] shift_diag_up_right
+        [17] loop
+        [18] left
+        Enter Links to exclude as csv (EX:1,2,3)
+        >> 2,3,4
+    
+    3. The -H and --noplain options are there for testing purposes incase you want to generate a combination of hashes and plain text walks. 
+    
+    
 Method 2 Usage
 --------------
 
