@@ -84,7 +84,7 @@ Method 1 Usage
                     
     Example STDOUT:
     
-    python QwertyTreeWalker.py qwerty_graph.txt -l 16 -p 1 > 16_Walk.txt
+    python QwertyTreeWalker.py qwerty_graph.txt -l 16 -p 1 --stdout > 16_Walk.txt
     
     Executing the above command will output the following to 16_Walk.txt. NOTE: This will probably NOT complete in your lifetime. Porting this to use GPUs might be able to though. If anyone tries using GPUs please share your results.  
     
