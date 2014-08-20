@@ -167,7 +167,7 @@ The WalkCheck.py script can be used to detected keyboard walks in a word list. I
 
     Commandline Arguments:
     ----------------------
-WalkCheck.py - Checks strings and detects keyboard walks
+    WalkCheck.py - Checks strings and detects keyboard walks
     
     usage: WalkCheck.py [-h] [-l [L]] [-strict] [-loop] [-stats]
                     [graph_file_name] [input]
@@ -186,8 +186,8 @@ WalkCheck.py - Checks strings and detects keyboard walks
       -loop                Consider adjacent dublicate letters as walks
       -stats               Do some calculations
 
-EXAMPLE: python WalkCheck.py qwerty_graph.txt rockyou.txt -l 8 
+    EXAMPLE: python WalkCheck.py qwerty_graph.txt rockyou.txt -l 8 
 
-The above command will print out all the words in rockyou.txt that contain keyboard walks of length 8.
+    The above command will print out all the words in rockyou.txt that contain keyboard walks of length 8.
 
 
