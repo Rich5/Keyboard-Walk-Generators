@@ -73,7 +73,6 @@ asdf
 zxcv
 tyui
 ghjk
-vbnm
 zse4
 xdr5
 cft6
@@ -117,9 +116,7 @@ aqsw
 defr
 gthy
 swde
-defr
 frgt
-gthy
 hyju
 juki
 kilo
