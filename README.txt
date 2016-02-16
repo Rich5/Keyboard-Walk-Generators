@@ -3,7 +3,7 @@
 
     Author: Rich Kelley, rk5devmail[A T]gmail[D O T]com, @RGKelley5
     
-    More info at: www.frogstarworldc.com
+    More info at: www.bytesdarkly.com
     
 --------------------------------------------------------
 
